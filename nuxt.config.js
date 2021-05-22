@@ -9,7 +9,7 @@ export default {
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'irvis.me',
+    title: 'I\'am Irvis Ozuna',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -47,6 +47,11 @@ export default {
     __dangerouslyDisableSanitizers: ['script'],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        rel: 'stylesheet',
+        type:'text/css',
+        href:'https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css',
+      },
       {
         rel: 'stylesheet',
         type: 'text/css',
@@ -88,9 +93,12 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: ['swiper/dist/css/swiper.css', '~/assets/scss/resume.scss'],
+  purgeCSS: {
+    whitelist: ["aos-init", "aos-animate", "data-aos-delay", "data-aos-duration", "fade-up", "zoom-in"],
+  },
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [{ src: '~plugins/swiper.js', ssr: false }],
+  plugins: [{ src: '~plugins/swiper.js', ssr: false },{ src: "@/plugins/aos", mode: "client" }],
   /*
    ** Customize the progress bar color
    */
@@ -104,6 +112,7 @@ export default {
     '@nuxt/typescript-build',
     // https://go.nuxtjs.dev/stylelint
     '@nuxtjs/stylelint-module',
+    '@nuxtjs/tailwindcss',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules

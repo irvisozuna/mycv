@@ -1,25 +1,28 @@
 <template>
   <div>
     <!-- Navigation -->
+    <Nav/>
     <!-- <Navigation /> -->
     <!-- Content -->
     <div class="container content">
       <Nuxt />
     </div>
+    <Footer/>
   </div>
 </template>
 
-<!--
+
 <script>
-import Navigation from "@/components/Navigation"
+import Footer from "@/components/main/Footer"
+import Nav from "@/components/main/Navigation"
 
 export default {
   components: {
-    Navigation
+    Nav,
+    Footer,
   }
 }
 </script>
--->
 
 <style>
 html {
