@@ -13,8 +13,8 @@
 
 <script>
 export default {
-  props: ["id", "thumbnail", "title", "previewText"]
-};
+  props: ['id', 'thumbnail', 'title', 'previewText'],
+}
 </script>
 
 <style scoped>

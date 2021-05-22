@@ -1,16 +1,16 @@
 <template>
   <section id="page-top">
     <div class="container-fluid p-0">
-      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+      <section id="about" class="resume-section p-3 p-lg-5 d-flex d-column">
         <div class="my-auto">
           <h1 class="mb-0">
-            Wahyu
-            <span class="text-primary">Widagdo</span>
+            Irvis
+            <span class="text-primary">Ozuna</span>
           </h1>
-          <h3 class="mb-4">Presales, Mobile Developer, Full Stack Developer</h3>
+          <h3 class="mb-4">Full Stack Developer</h3>
           <div class="subheading mb-5">
-            Jakarta, Indonesia · +62 - 0816-YUPS-71 ·
-            <a href="mailto:name@email.com">way@waysquare.com</a>
+            Hermosillo, México · +52 - 6622446224 ·
+            <a href="mailto:irvis.isaac@gmail.com">irvis.isaac@gmail.com</a>
           </div>
           <p class="mb-5">
             • High skills professional on Designing Network & Customized
@@ -20,19 +20,18 @@
             of a project.
           </p>
           <p class="mb-5">
-            • Passionate about mobile and web developer, making useful
-            application and games for Android and iOS using Android Studio,
-            React Native, Kotlin, Java, Blender, Unity 3D, GIMP
+            • Passionate about web and mobile developer, making useful
+            application for Android and iOS using Ionic Framework
           </p>
           <div class="mb-5">
             <p>• Stack:</p>
-            <p>Native Java Android, Python, Laravel</p>
+            <p>Laravel, Javascript with Vuejs and Jquery</p>
           </div>
 
           <div class="mb-5">
             <p>• System Administrator</p>
-            <p>VPS: Upcloud, AWS, DigitalOcean, Vultr, GCP</p>
-            <p>OS: Red Hat, Ubuntu, CentOS</p>
+            <p>VPS: DigitalOcean, Azure</p>
+            <p>OS: Ubuntu, MacOS and Windows</p>
           </div>
           <ul class="list-inline list-social-icons mb-0">
             <li class="list-inline-item">
@@ -52,10 +51,7 @@
               </a>
             </li> -->
             <li class="list-inline-item">
-              <a
-                target="blank"
-                href="https://www.linkedin.com/in/wahyu-widagdo-purnomo-95905438/"
-              >
+              <a target="blank" href="https://www.linkedin.com/in/irvisozuna/">
                 <span class="fa-stack fa-lg">
                   <i class="fas fa-circle fa-stack-2x"></i>
                   <i class="fab fa-linkedin-in fa-stack-1x fa-inverse"></i>
@@ -63,7 +59,7 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a target="blank" href="https://github.com/wahyuway">
+              <a target="blank" href="https://github.com/irvisozuna">
                 <span class="fa-stack fa-lg">
                   <i class="fas fa-circle fa-stack-2x"></i>
                   <i class="fab fa-github-alt fa-stack-1x fa-inverse"></i>
@@ -75,8 +71,8 @@
       </section>
 
       <section
-        class="resume-section p-3 p-lg-5 d-flex flex-column"
         id="experience"
+        class="resume-section p-3 p-lg-5 d-flex flex-column"
       >
         <div class="my-auto">
           <h2 class="mb-5">Experience</h2>
@@ -84,16 +80,10 @@
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Fullstack Developer / Technical Analyst</h3>
-              <div class="subheading mb-3">Indosat Ooredoo</div>
-              <p>
-                - Design and Managed Network Infrastructure
-              </p>
-              <p>
-                - Managed Virtual Machine Infrastructure
-              </p>
-              <p>
-                - Monitoring and Troubleshooting Server on Virtual Machine
-              </p>
+              <div class="subheading mb-3">Quantumbit</div>
+              <p>- Design and Managed Network Infrastructure</p>
+              <p>- Managed Virtual Machine Infrastructure</p>
+              <p>- Monitoring and Troubleshooting Server on Virtual Machine</p>
               <p>
                 - Develop good working relationship with related unit,
                 department and vendor to support implementation Indosat services
@@ -177,17 +167,17 @@
       </section>
 
       <section
-        class="resume-section p-3 p-lg-5 d-flex flex-column"
         id="education"
+        class="resume-section p-3 p-lg-5 d-flex flex-column"
       >
         <div class="my-auto">
           <h2 class="mb-5">Education</h2>
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">University of Telkom</h3>
+              <h3 class="mb-0">University of Hermosillo</h3>
               <div class="subheading mb-3">Bachelor of Engineering</div>
-              <div>Computer Science</div>
+              <div>Technology of Information and Communication</div>
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">May 2002 - August 2007</span>
@@ -206,7 +196,7 @@
         </div>
       </section>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+      <section id="skills" class="resume-section p-3 p-lg-5 d-flex flex-column">
         <div class="my-auto">
           <h2 class="mb-5">Skills</h2>
 
@@ -276,8 +266,8 @@
       </section>
 
       <section
-        class="resume-section p-3 p-lg-5 d-flex flex-column"
         id="interests"
+        class="resume-section p-3 p-lg-5 d-flex flex-column"
       >
         <div class="my-auto">
           <h2 class="mb-5">Interests</h2>
@@ -296,7 +286,7 @@
         </div>
       </section>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
+      <section id="awards" class="resume-section p-3 p-lg-5 d-flex flex-column">
         <div class="my-auto">
           <h2 class="mb-5">Awards &amp; Certifications</h2>
           <ul class="fa-ul mb-0">

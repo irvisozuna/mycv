@@ -1,8 +1,8 @@
 <template>
   <section>
     <nav
-      class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
       id="sideNav"
+      class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
     >
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
         <span class="d-block d-lg-none">Resume Wahyu</span>
@@ -25,7 +25,7 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div id="navbarSupportedContent" class="collapse navbar-collapse">
         <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#about">About</a>
@@ -65,13 +65,13 @@
 </template>
 
 <script>
-import Resume from "@/components/Resume";
+import Resume from '@/components/Resume'
 
 export default {
   components: {
-    Resume
-  }
-};
+    Resume,
+  },
+}
 </script>
 
 <style scoped>
