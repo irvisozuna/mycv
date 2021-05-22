@@ -1,8 +1,8 @@
 {
-  "name": "resume-wahyu",
+  "name": "resume-irvisozuna",
   "version": "1.0.0",
-  "description": "Hi I'm Wahyu. I am an Engineer, Fullstack Web and Android Developer.",
-  "author": "Wahyu",
+  "description": "Hi I'm Irvis Ozuna. I am an Engineer, Fullstack Web and Android Developer.",
+  "author": "Irvis Ozuna",
   "private": true,
   "scripts": {
     "dev": "cross-env HOST=0.0.0.0 PORT=3333 nuxt",
