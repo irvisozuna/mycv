@@ -5,7 +5,7 @@
 
       <div class="about__container bd-grid"   data-aos="fade-down"  data-aos-delay="300">
           <div class="about__img">
-              <img src="img/about.jpg" alt="">
+              <img src="img/about.png" alt="">
           </div>
 
           <div   data-aos="fade-down"  data-aos-delay="600">
