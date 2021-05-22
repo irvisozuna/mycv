@@ -1,11 +1,11 @@
 # Nuxt.js Portfolio/Resume Template
 
-> Hi I'm Wahyu. I am a Presales Engineer, Fullstack Web and Android Developer.
+> Hi I'm Irvis Ozuna. I am a Presales Engineer, Fullstack Web and Android Developer.
 > I converted static bootstrap template from: https://startbootstrap.com/template-overviews/resume/ to nuxt.js template.
 
 ## Demo
 
-https://me.waysquare.com
+https://irvis.me
 
 ## Build Setup
 
